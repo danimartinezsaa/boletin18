@@ -34,6 +34,7 @@ public class Buzon{
         for(int i=0;i<buzon.size();i++){
             if(buzon.get(i).leido!=true){
                 noLeido=buzon.get(i).contenido;
+                buzon.get(i).leido=true;
                 break;
             }
         }
