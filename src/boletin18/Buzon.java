@@ -47,6 +47,7 @@ public class Buzon{
         if(k>buzon.size())
             return "Ese correo no existe.";
         else
+            buzon.get(k).leido=true;
             return buzon.get(k).contenido;
     }
     public void elimina(int k){
